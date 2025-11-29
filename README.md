@@ -17,7 +17,6 @@
 [Features](#-features) •
 [Installation](#-installation) •
 [Quick Start](#-quick-start) •
-[Benchmark](#-mm-deceptionbench) •
 [Citation](#-citation)
 
 ---
