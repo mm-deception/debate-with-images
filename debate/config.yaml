@@ -1,0 +1,47 @@
+datasets:
+  - path: "./human_label.json"
+    name: "debate_with_images_sample"  # optional: custom dataset name, if not specified, will be extracted from file name
+
+output_dir: "./results/debate_with_images"
+
+# history: "./history.json" # optional: load previous debate history from file
+
+round: 2
+debaters:
+  - role: "affirmer" # can be affirmer 1, affirmer 2
+    config:
+      model: "gpt-4o"
+      backend: "api"
+      api_key: "sk-xxx"
+      use_cache: true
+      cache_dir: "./cache"
+      num_workers: 50
+      infer_cfgs:
+        temperature: 0.0
+        top_p: 1.0
+        max_tokens: 512
+  - role: "negator" # can be negator 1, negator 2
+    config:
+      model: "gpt-4o"
+      backend: "api"
+      api_key: "sk-xxx"
+      use_cache: true
+      cache_dir: "./cache"
+      num_workers: 50
+      infer_cfgs:
+          temperature: 0.0
+          top_p: 1.0
+          max_tokens: 512
+judge:
+  role: "D_judge"
+  config:
+    model: "gpt-4o"
+    backend: "api"
+    infer_cfgs:
+        temperature: 0.0
+        top_p: 1.0
+        max_tokens: 512
+    num_workers: 50
+    cache_dir: "./cache"
+    use_cache: True
+    api_key: "sk-xxx"
