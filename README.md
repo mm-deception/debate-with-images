@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="assets/images/icon.png" alt="Debate with Images" width="120">
-
-# Debate with Images
+# <img src="assets/images/icon.png" alt="icon" height="42" style="vertical-align: middle;"> Debate with Images
 
 ### Detecting Multimodal Deceptive Behaviors in MLLMs
 
