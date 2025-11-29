@@ -4,9 +4,10 @@
 
 ### Detecting Multimodal Deceptive Behaviors in MLLMs
 
+[![Paper](https://img.shields.io/badge/📄_Paper-arXiv-red)](https://arxiv.org/abs/)
 [![Homepage](https://img.shields.io/badge/🏠_Homepage-mm--deception.github.io-purple)](https://mm-deception.github.io)
 [![Code](https://img.shields.io/badge/💻_Code-GitHub-black)](https://github.com/mm-deception/multimodal-deception)
-[![Dataset](https://img.shields.io/badge/🤗_Dataset-MM--DeceptionBench-blue)](https://huggingface.co/datasets/)
+[![Dataset](https://img.shields.io/badge/🤗_Dataset-MM--DeceptionBench-blue)](https://github.com/mm-deception/MM-DeceptionBench/)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 <p align="center">
@@ -23,7 +24,7 @@
 
 <img src="assets/images/teaser.png" alt="Teaser" width="100%">
 
-*Examples of multimodal deceptive behaviors in MLLMs across six categories.*
+*Defining multimodal deception through three distinct behavioral patterns.*
 
 </div>
 
@@ -37,7 +38,7 @@
 
 <img src="assets/images/framework.jpg" alt="Framework" width="90%">
 
-*The Debate with Images framework: Affirmer and Negator debate with visual evidence, while a neutral Judge makes the final verdict.*
+*The Debate with images framework: A multi-agent evaluation framework for detecting multimodal deception.*
 
 </div>
 
@@ -460,7 +461,7 @@ If you find this work useful, please cite:
 
 ## 📄 License
 
-This project is licensed under the [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) License.
 
 ---
 
